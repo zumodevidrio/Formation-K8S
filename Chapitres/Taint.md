@@ -7,7 +7,7 @@ Une Taint va se servir par exemple :
 - pour dédier des Nodes à certains pods (en évitant ainsi que les autres Pod ne s'y installent)
 - pour palier à un problème temporaire, un controller Kubernetes va poser des taints pour signifier que :
     - `node.kubernetes.io/not-ready`  Le Node n'est pas opérationnel.
-    - `node.kubernetes.io/unreachable` Le Node n'est pas joignable is unreachable from the node controller. This corresponds to the NodeCondition Ready being "Unknown".
+    - `node.kubernetes.io/unreachable` Le Node n'est pas joignable.
     - `node.kubernetes.io/memory-pressure`: Le Node est n'a plus assez de mémoire disponible.
     - `node.kubernetes.io/disk-pressure` Le Node n'as plus assez d'espace disque disponible.
     - `node.kubernetes.io/pid-pressure` Le Node manque de PID disponible.
