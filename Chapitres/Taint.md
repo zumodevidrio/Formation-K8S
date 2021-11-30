@@ -9,7 +9,7 @@ Une Taint va se servir par exemple :
     - `node.kubernetes.io/not-ready`  Le Node n'est pas opérationnel.
     - `node.kubernetes.io/unreachable` Le Node n'est pas joignable.
     - `node.kubernetes.io/memory-pressure`: Le Node est n'a plus assez de mémoire disponible.
-    - `node.kubernetes.io/disk-pressure` Le Node n'as plus assez d'espace disque disponible.
+    - `node.kubernetes.io/disk-pressure` Le Node n'a plus assez d'espace disque disponible.
     - `node.kubernetes.io/pid-pressure` Le Node manque de PID disponible.
     - `node.kubernetes.io/network-unavailable` Le réseau du Node est indisponible.
     - `node.kubernetes.io/unschedulable` Le Node n'accepte pas d'assignation de pod par le scheduler.
