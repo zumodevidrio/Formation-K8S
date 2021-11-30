@@ -26,7 +26,7 @@ Si vous tuez votre VM le iaas vous en donnera une autre mais qui n’a pas le m�
 
 ### Les resources
 Les resources demandées par le pod vont être utiles au scheduler pour savoir où placer le pod mais pas seulement.
-- Si pour un Pod les resources sont non définies (ni request ni limit), il pod est considéré comme non prioritaire.
+- Si pour un Pod les resources sont non définies (ni request ni limit), il est considéré comme non prioritaire.
   Le pod fera partie des premiers à être déplacé au besoin.
 - Si le pod a des resources définissent des requests mais pas de limits il fera partie des seconds à être déplacé.
 - Si les resources sont définies au niveau request et limit, le Pod est dit prioritaire.
